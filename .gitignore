@@ -1,0 +1,29 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.venv/
+venv/
+privacy_terms.local.txt
+
+# 个人原始素材与可恢复的工作文件
+input/assets/*
+!input/assets/.gitkeep
+input/sources/*
+!input/sources/.gitkeep
+archive/*
+!archive/session_logs/
+!archive/sources/
+archive/session_logs/*
+!archive/session_logs/.gitkeep
+archive/sources/*
+!archive/sources/.gitkeep
+interview/companies/*/mock/raw/*
+!interview/companies/*/mock/raw/.gitkeep
+
+# 本地工具设置、凭证和私有环境文件
+.claude/
+.codex/
+.env
+.env.*
+*.key
+*.pem
