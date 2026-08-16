@@ -1,0 +1,24 @@
+{
+  "location": "Tokyo, Japan",
+  "max_age_days": 14,
+  "limit_per_query": 10,
+  "high_priority_title_terms": [
+    "example consultant"
+  ],
+  "medium_priority_title_terms": [
+    "solution consultant",
+    "project manager",
+    "business analyst"
+  ],
+  "queries": [
+    {
+      "priority": 1,
+      "query": "solution consultant"
+    },
+    {
+      "priority": 2,
+      "query": "project manager"
+    }
+  ],
+  "known_exclusions": []
+}
